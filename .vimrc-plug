@@ -34,7 +34,7 @@ Plug 'kien/ctrlp.vim'
 
 "Matrix inspired theme
 Plug 'revolutions.vim'
-Plug 'zenorocha/dracula-theme'
+Plug 'crusoexia/vim-dracula'
 
 " ---------- Miscelaneous ----------
 

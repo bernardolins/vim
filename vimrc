@@ -19,3 +19,6 @@ source ~/.vim/.vimrc-plug
 
 " Including keymaps
 source ~/.vim/.vimrc-maps
+
+" Including colors
+source ~/.vim/.vimrc-colors
