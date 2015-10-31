@@ -1,5 +1,9 @@
 " ---------- Plugins ----------
-" NerdTREE
-
+"
+" === NerdTREE ===
 "Toggle NerdTREE
 map <F2> :NERDTreeToggle<CR>
+
+" === Tagbar ===
+" Toggle Tagbar
+nmap <F3> :TagbarToggle<CR>
