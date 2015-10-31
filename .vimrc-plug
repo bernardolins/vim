@@ -36,8 +36,13 @@ Plug 'sickill/vim-monokai'
 
 " ---------- Miscelaneous ----------
 
-" Helps to easily changes sorrounds, like () to [], for example
+" Helps to easily changes surrounds, like () to [], for example
 Plug 'tpope/vim-surround'
+
+" Smart auto-closing surrounds
 Plug 'Raimondi/delimitMate'
+
+" Easy navigation between buffers
+Plug 'christoomey/vim-tmux-navigator'
 
 call plug#end()
