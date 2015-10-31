@@ -12,6 +12,12 @@ set history=100
 " Enabling line numbers
 set number
 
+" Tab and Identation
+filetype plugin indent on
+set tabstop=2
+set shiftwidth=2
+set expandtab
+
 " ----------- Sourcing external files ----------
 
 " Including plugins
@@ -22,5 +28,3 @@ source ~/.vim/.vimrc-maps
 
 " Including colors
 source ~/.vim/.vimrc-colors
-
-"colo monokai 
