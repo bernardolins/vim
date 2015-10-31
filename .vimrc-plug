@@ -30,6 +30,12 @@ Plug 'ekalinin/Dockerfile.vim'
 "Ctrp-vim for file fuzzy search
 Plug 'kien/ctrlp.vim'
 
+" ---------- Colorschemes ----------
+
+"Matrix inspired theme
+Plug 'revolutions.vim'
+Plug 'zenorocha/dracula-theme'
+
 " ---------- Miscelaneous ----------
 
 " Helps to easily changes sorrounds, like () to [], for example
