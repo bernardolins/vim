@@ -22,6 +22,9 @@ Plug 'scrooloose/syntastic'
 "Vim-go to syntax highlight and other features when using golang
 Plug 'fatih/vim-go'
 
+"Dockerfile.vim adds syntax highlight to dockerfiles
+Plug 'ekalinin/Dockerfile.vim'
+
 " ---------- Functionality ----------
 
 "Ctrp-vim for file fuzzy search
