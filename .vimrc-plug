@@ -10,7 +10,6 @@ Plug 'bling/vim-airline'
 " Tagbar adds bar to browse tags on current file
 Plug 'majutsushi/tagbar'
 
-
 "NerdTREE adds a file explorer
 Plug 'scrooloose/nerdtree'
 
@@ -32,13 +31,13 @@ Plug 'kien/ctrlp.vim'
 
 " ---------- Colorschemes ----------
 
-"Matrix inspired theme
-Plug 'revolutions.vim'
 Plug 'crusoexia/vim-dracula'
+Plug 'sickill/vim-monokai'
 
 " ---------- Miscelaneous ----------
 
 " Helps to easily changes sorrounds, like () to [], for example
 Plug 'tpope/vim-surround'
+Plug 'Raimondi/delimitMate'
 
 call plug#end()

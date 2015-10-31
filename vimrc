@@ -1,7 +1,7 @@
 "---------- Defaults ----------
 
 " Enabling syntax highlight
-syntax enable
+syntax on
 
 " Hidden Buffer always open
 set hidden
@@ -22,3 +22,5 @@ source ~/.vim/.vimrc-maps
 
 " Including colors
 source ~/.vim/.vimrc-colors
+
+"colo monokai 
