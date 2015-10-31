@@ -1,0 +1,5 @@
+" ---------- Plugins ----------
+" NerdTREE
+
+"Toggle NerdTREE
+map <F2> :NERDTreeToggle<CR>
