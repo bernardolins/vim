@@ -1,0 +1,4 @@
+" ---------- Airline ----------
+"
+"  Shows airline everytime
+set laststatus=2

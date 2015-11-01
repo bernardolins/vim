@@ -31,3 +31,6 @@ source ~/.vim/.vimrc-maps
 
 " Including colors
 source ~/.vim/.vimrc-colors
+
+" Including sets 
+source ~/.vim/.vimrc-set
