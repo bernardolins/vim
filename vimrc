@@ -12,6 +12,9 @@ set history=100
 " Enabling line numbers
 set number
 
+" Enable cursor line highlight
+set cursorline
+
 " Tab and Identation
 filetype plugin indent on
 set tabstop=2
