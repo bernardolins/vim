@@ -29,6 +29,9 @@ Plug 'ekalinin/Dockerfile.vim'
 "Ctrp-vim for file fuzzy search
 Plug 'kien/ctrlp.vim'
 
+"Code completion
+Plug 'Valloric/YouCompleteMe'
+
 " ---------- Colorschemes ----------
 
 Plug 'crusoexia/vim-dracula'
