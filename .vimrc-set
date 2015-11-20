@@ -1,3 +1,6 @@
+" ---------- Bash ----------
+"  Use bash as default shell
+set shell=bash
 " ---------- Airline ----------
 "
 "  Shows airline everytime
