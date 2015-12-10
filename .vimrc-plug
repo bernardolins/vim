@@ -24,6 +24,9 @@ Plug 'fatih/vim-go'
 "Dockerfile.vim adds syntax highlight to dockerfiles
 Plug 'ekalinin/Dockerfile.vim'
 
+" Systemd
+Plug 'Matt-Deacalion/vim-systemd-syntax'
+
 " ---------- Functionality ----------
 
 "Ctrp-vim for file fuzzy search
