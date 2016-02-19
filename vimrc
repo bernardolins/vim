@@ -15,11 +15,17 @@ set number
 " Enable cursor line highlight
 set cursorline
 
+" Relative number line
+set relativenumber
+
 " Tab and Identation
 filetype plugin indent on
 set tabstop=2
 set shiftwidth=2
 set expandtab
+
+" Avoid lag caused by cursorline
+set lazyredraw
 
 " ----------- Sourcing external files ----------
 
