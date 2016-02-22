@@ -15,3 +15,9 @@ noremap <M-tab> :bn<CR>
 noremap <S-tab> :bp<CR>
 nmap <leader>d :BD<CR>
 nmap <leader>D :bufdo bd<CR>
+
+"Rainbow Parentheses
+au VimEnter * RainbowParenthesesToggle
+au Syntax * RainbowParenthesesLoadRound
+au Syntax * RainbowParenthesesLoadSquare
+au Syntax * RainbowParenthesesLoadBraces

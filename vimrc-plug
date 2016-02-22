@@ -51,4 +51,10 @@ Plug 'Raimondi/delimitMate'
 " Easy navigation between buffers
 Plug 'christoomey/vim-tmux-navigator'
 
+"Identation Guide
+Plug 'Yggdroot/indentLine'
+
+"Rainbow Parentheses
+Plug 'kien/rainbow_parentheses.vim'
+
 call plug#end()
