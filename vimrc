@@ -30,13 +30,13 @@ set lazyredraw
 " ----------- Sourcing external files ----------
 
 " Including plugins
-source ~/.vim/.vimrc-plug
+source ~/.vim/vimrc-plug
 
 " Including keymaps
-source ~/.vim/.vimrc-maps
+source ~/.vim/vimrc-maps
 
 " Including colors
-source ~/.vim/.vimrc-colors
+source ~/.vim/vimrc-colors
 
 " Including sets 
-source ~/.vim/.vimrc-set
+source ~/.vim/vimrc-set
