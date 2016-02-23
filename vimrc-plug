@@ -35,6 +35,9 @@ Plug 'kien/ctrlp.vim'
 "Code completion
 Plug 'Valloric/YouCompleteMe'
 
+"Html helper
+Plug 'rstacruz/sparkup'
+
 " ---------- Colorschemes ----------
 
 Plug 'crusoexia/vim-dracula'
