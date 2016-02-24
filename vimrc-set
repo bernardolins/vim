@@ -15,9 +15,9 @@ let g:airline_powerline_fonts = 1
 let g:airline#extensions#tabline#enabled = 1
 
 " Switch between / delete buffers
-noremap <M-tab> :bn<CR>
-noremap <S-tab> :bp<CR>
-nmap <leader>d :BD<CR>
+noremap <S-l> :bn<CR>
+noremap <S-h> :bp<CR>
+nmap <leader>d :bdelete<CR>
 nmap <leader>D :bufdo bd<CR>
 
 "---------- Rainbow Parentheses ---------
