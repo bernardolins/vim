@@ -1,3 +1,7 @@
+" ---------- Scrolling ----------
+"  To avoid slow scrolling when line is too long
+set synmaxcol=128
+
 " ---------- Bash ----------
 "  Use bash as default shell
 set shell=bash
