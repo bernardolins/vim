@@ -38,6 +38,10 @@ Plug 'Matt-Deacalion/vim-systemd-syntax'
 "Ctrp-vim for file fuzzy search
 Plug 'kien/ctrlp.vim'
 
+"Multiple cursor support
+Plug 'terryma/vim-multiple-cursors'
+
+
 "Code completion
 Plug 'Valloric/YouCompleteMe'
 
