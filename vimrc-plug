@@ -51,6 +51,9 @@ Plug 'rstacruz/sparkup'
 "Easymotion enable shortcuts while moving cursor
 Plug 'easymotion/vim-easymotion'
 
+" Best comments
+Plug 'scrooloose/nerdcommenter'
+
 " ---------- Colorschemes ----------
 
 Plug 'crusoexia/vim-dracula'
