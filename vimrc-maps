@@ -1,3 +1,8 @@
+" --------- Default ----------
+"  Leader Key as space
+let mapleader=" "
+nnoremap <Space> <nop>
+
 " ---------- Plugins ----------
 
 " ========== NerdTREE ==========

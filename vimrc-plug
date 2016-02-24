@@ -13,6 +13,12 @@ Plug 'majutsushi/tagbar'
 "NerdTREE adds a file explorer
 Plug 'scrooloose/nerdtree'
 
+"Git symbols
+Plug 'airblade/vim-gitgutter'
+
+"Git status to nerdtree
+Plug 'Xuyuanp/nerdtree-git-plugin'
+
 " ---------- Syntax ----------
 
 "Syntastic checks syntax errors from various languages
@@ -38,6 +44,9 @@ Plug 'Valloric/YouCompleteMe'
 "Html helper
 Plug 'rstacruz/sparkup'
 
+"Easymotion enable shortcuts while moving cursor
+Plug 'easymotion/vim-easymotion'
+
 " ---------- Colorschemes ----------
 
 Plug 'crusoexia/vim-dracula'
@@ -59,5 +68,8 @@ Plug 'Yggdroot/indentLine'
 
 "Rainbow Parentheses
 Plug 'kien/rainbow_parentheses.vim'
+
+"MRU file list
+Plug 'mru.vim'
 
 call plug#end()
