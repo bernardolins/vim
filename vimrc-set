@@ -1,10 +1,17 @@
 " ---------- Scrolling ----------
 "  To avoid slow scrolling when line is too long
-set synmaxcol=128
+set synmaxcol=512
 
 " ---------- Bash ----------
 "  Use bash as default shell
 set shell=bash
+
+" ---------- Swap files ----------
+" Sets swap directory to .vim/swap
+set backupdir=~/.vim/backup//
+set directory=~/.vim/swap//
+set undodir=~/.vim/undo//
+
 " ---------- Airline ----------
 "
 "  Shows airline everytime
