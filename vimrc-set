@@ -45,3 +45,6 @@ nmap <Leader>L <Plug>(easymotion-overwin-line)
 "Move to word
 map  <Leader>w <Plug>(easymotion-bd-w)
 nmap <Leader>w <Plug>(easymotion-overwin-w)
+
+nmap <c-s-j> :m +1<CR>
+nmap <c-s-k> :m -2<CR>
