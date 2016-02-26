@@ -21,7 +21,7 @@ nmap <leader>d :bdelete<CR>
 nmap <leader>D :bufdo bd<CR>
 
 "---------- Rainbow Parentheses ---------
-au VimEnter * RainbowParenthesesToggle
+noremap <F7> :RainbowParenthesesToggle <CR>
 au Syntax * RainbowParenthesesLoadRound
 au Syntax * RainbowParenthesesLoadSquare
 au Syntax * RainbowParenthesesLoadBraces
