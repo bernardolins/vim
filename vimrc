@@ -15,9 +15,6 @@ set number
 " Enable cursor line highlight
 set cursorline
 
-" Relative number line
-set relativenumber
-
 " Tab and Identation
 filetype plugin indent on
 set tabstop=2
