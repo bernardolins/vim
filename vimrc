@@ -13,7 +13,7 @@ set history=100
 set number
 
 " Enable cursor line highlight
-set cursorline
+"set cursorline
 
 " Tab and Identation
 filetype plugin indent on

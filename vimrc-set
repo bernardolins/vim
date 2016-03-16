@@ -48,3 +48,5 @@ nmap <Leader>w <Plug>(easymotion-overwin-w)
 
 nmap <c-s-j> :m +1<CR>
 nmap <c-s-k> :m -2<CR>
+
+map <Leader>y "*yy<CR>
