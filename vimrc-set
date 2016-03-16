@@ -49,4 +49,6 @@ nmap <Leader>w <Plug>(easymotion-overwin-w)
 nmap <c-s-j> :m +1<CR>
 nmap <c-s-k> :m -2<CR>
 
+"Integration to system's clipboard
 map <Leader>y "*yy<CR>
+map <Leader>p "*p<CR>
