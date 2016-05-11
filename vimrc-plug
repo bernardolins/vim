@@ -54,6 +54,15 @@ Plug 'easymotion/vim-easymotion'
 " Best comments
 Plug 'scrooloose/nerdcommenter'
 
+"Ruby Text Objects
+Plug 'nelstrom/vim-textobj-rubyblock'
+
+"Create your own text objects
+Plug 'kana/vim-textobj-user'
+
+"Elixir
+Plug 'elixir-lang/vim-elixir'
+
 " ---------- Colorschemes ----------
 
 Plug 'crusoexia/vim-dracula'
