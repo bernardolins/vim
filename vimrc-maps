@@ -12,3 +12,9 @@ map <F2> :NERDTreeToggle<CR>
 " ========== Tagbar ==========
 " Toggle Tagbar
 nmap <F3> :TagbarToggle<CR>
+
+" ========= Vim-Rspec ==========
+map <Leader>t :call RunCurrentSpecFile()<CR>
+map <Leader>s :call RunNearestSpec()<CR>
+map <Leader>l :call RunLastSpec()<CR>
+map <Leader>a :call RunAllSpecs()<CR>

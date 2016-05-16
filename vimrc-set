@@ -52,3 +52,7 @@ nmap <c-s-k> :m -2<CR>
 "Integration to system's clipboard
 map <Leader>y "*yy<CR>
 map <Leader>p "*p<CR>
+
+"---------- Dispatch Vim ----------
+"Runs rspec through tmux
+let g:rspec_command = "Dispatch bundle exec rspec {spec}"

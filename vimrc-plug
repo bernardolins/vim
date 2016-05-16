@@ -41,6 +41,8 @@ Plug 'kien/ctrlp.vim'
 "Multiple cursor support
 Plug 'terryma/vim-multiple-cursors'
 
+"Assync adapters, like tmux for Vim
+Plug 'tpope/vim-dispatch'
 
 "Code completion
 Plug 'Valloric/YouCompleteMe'
@@ -56,6 +58,9 @@ Plug 'scrooloose/nerdcommenter'
 
 "Ruby Text Objects
 Plug 'nelstrom/vim-textobj-rubyblock'
+
+"Rspec inside Vim
+Plug 'thoughtbot/vim-rspec'
 
 "Create your own text objects
 Plug 'kana/vim-textobj-user'
