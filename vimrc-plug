@@ -7,11 +7,8 @@ call plug#begin('~/.vim/plugged')
 " Airline adds the status bar at the bottom of screen
 Plug 'bling/vim-airline'
 
-" Tagbar adds bar to browse tags on current file
-Plug 'majutsushi/tagbar'
-
 "NerdTREE adds a file explorer
-Plug 'scrooloose/nerdtree'
+Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
 
 "Git symbols
 Plug 'airblade/vim-gitgutter'
@@ -44,32 +41,18 @@ Plug 'terryma/vim-expand-region'
 "Multiple cursor support
 Plug 'terryma/vim-multiple-cursors'
 
-"Assync adapters, like tmux for Vim
-Plug 'tpope/vim-dispatch'
-
 "Code completion
 Plug 'Valloric/YouCompleteMe'
-
-"Html helper
-Plug 'rstacruz/sparkup'
-
-"Easymotion enable shortcuts while moving cursor
-Plug 'easymotion/vim-easymotion'
 
 " Best comments
 Plug 'scrooloose/nerdcommenter'
 
-"Ruby Text Objects
-Plug 'nelstrom/vim-textobj-rubyblock'
-
-"Rspec inside Vim
-Plug 'thoughtbot/vim-rspec'
-
-"Create your own text objects
-Plug 'kana/vim-textobj-user'
+"Search
+Plug 'dyng/ctrlsf.vim'
 
 "Elixir
 Plug 'elixir-lang/vim-elixir'
+Plug 'slashmili/alchemist.vim'
 
 " ---------- Colorschemes ----------
 
