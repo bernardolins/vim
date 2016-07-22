@@ -13,16 +13,13 @@ set history=100
 set number
 
 " Enable cursor line highlight
-"set cursorline
+set cursorline
 
 " Tab and Identation
 filetype plugin indent on
 set tabstop=2
 set shiftwidth=2
 set expandtab
-
-" Avoid lag caused by cursorline
-set lazyredraw
 
 " ----------- Sourcing external files ----------
 

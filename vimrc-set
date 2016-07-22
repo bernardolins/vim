@@ -33,26 +33,6 @@ au Syntax * RainbowParenthesesLoadRound
 au Syntax * RainbowParenthesesLoadSquare
 au Syntax * RainbowParenthesesLoadBraces
 
-"---------- Easymotion ----------
-"<Leader>f{char} to move to {char}
-map  <Leader>f <Plug>(easymotion-bd-f)
-nmap <Leader>f <Plug>(easymotion-overwin-f)
-"s{char}{char} to move to {char}{char}
-nmap s <Plug>(easymotion-overwin-f2)
-"Move to line
-map <Leader>L <Plug>(easymotion-bd-jk)
-nmap <Leader>L <Plug>(easymotion-overwin-line)
-"Move to word
-map  <Leader>w <Plug>(easymotion-bd-w)
-nmap <Leader>w <Plug>(easymotion-overwin-w)
-
-nmap <c-s-j> :m +1<CR>
-nmap <c-s-k> :m -2<CR>
-
 "Integration to system's clipboard
-map <Leader>y "*yy<CR>
+map <Leader>y "*y<CR>
 map <Leader>p "*p<CR>
-
-"---------- Dispatch Vim ----------
-"Runs rspec through tmux
-let g:rspec_command = "Dispatch bundle exec rspec {spec}"
