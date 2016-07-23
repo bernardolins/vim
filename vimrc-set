@@ -1,38 +1,39 @@
-" ---------- Scrolling ----------
-"  To avoid slow scrolling when line is too long
-set synmaxcol=512
+" ===================== Default ==============================
+let mapleader=" "
+nnoremap <Space> <nop>
 
-" ---------- Bash ----------
-"  Use bash as default shell
+" ==================== Defaults ==============================
+syntax on
+set hidden
+set history=100
+filetype plugin indent on
+set tabstop=2
+set shiftwidth=2
+set expandtab
+set synmaxcol=512
 set shell=bash
 
-" ---------- Swap files ----------
-" Sets swap directory to .vim/swap
+" ==================== Swap files ============================
 set backupdir=~/.vim/backup//
 set directory=~/.vim/swap//
 set undodir=~/.vim/undo//
 
-" ---------- Airline ----------
-"
-"  Shows airline everytime
+" ==================== Airline ===============================
 set laststatus=2
-"
-" Integrate with powerline fonts and icons
 let g:airline_powerline_fonts = 1
-let g:airline#extensions#tabline#enabled = 1
+let g:airline#extensions#tabline#enabled = 0
+let g:airline#extensions#tmuxline#enabled = 1 
+let g:airline_theme='bubblegum'
 
-" Switch between / delete buffers
-noremap <S-l> :bn<CR>
-noremap <S-h> :bp<CR>
+" ==================== Buffers ================================
+noremap <S=l> :bn<CR>
+noremap <S=h> :bp<CR>
 nmap <leader>d :bdelete<CR>
 nmap <leader>D :bufdo bd<CR>
 
-"---------- Rainbow Parentheses ---------
+" ==================== Rainbow Parentheses ====================
 noremap <F7> :RainbowParenthesesToggle <CR>
 au Syntax * RainbowParenthesesLoadRound
 au Syntax * RainbowParenthesesLoadSquare
 au Syntax * RainbowParenthesesLoadBraces
 
-"Integration to system's clipboard
-map <Leader>y "*y<CR>
-map <Leader>p "*p<CR>
