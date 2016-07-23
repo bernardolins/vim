@@ -1,22 +1,15 @@
-" --------- Default ----------
-"  Leader Key as space
-let mapleader=" "
-nnoremap <Space> <nop>
-
 " ---------- Plugins ----------
 
 " ========== NerdTREE ==========
 "Toggle NerdTREE
 map <F2> :NERDTreeToggle<CR>
 
-" ========= Vim-Rspec ==========
-map <Leader>t :call RunCurrentSpecFile()<CR>
-map <Leader>s :call RunNearestSpec()<CR>
-map <Leader>l :call RunLastSpec()<CR>
-map <Leader>a :call RunAllSpecs()<CR>
-
 " ========= Expand Selection =========
 vmap v <Plug>(expand_region_expand)
 vmap <C-v> <Plug>(expand_region_shrink)
 
 nmap <Leader>f <Plug>CtrlSFPrompt
+
+"Integration to system's clipboard
+map <Leader>y "*y<CR>
+map <Leader>p "*p<CR>
