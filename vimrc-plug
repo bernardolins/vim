@@ -1,82 +1,45 @@
-" Add plugins using VimPlug
-" Add new Plugin, them :source % and :PlugInstall
 call plug#begin('~/.vim/plugged')
 
-" ---------- Screen ----------
-
-" Airline adds the status bar at the bottom of screen
+" ==================== Screen =============================
+Plug 'crusoexia/vim-dracula'
+Plug 'crusoexia/vim-monokai'
 Plug 'bling/vim-airline'
-
-"NerdTREE adds a file explorer
-Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
-
-"Git symbols
 Plug 'airblade/vim-gitgutter'
 
-"Git status to nerdtree
+" ==================== NerdTREE ===========================
+Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
 Plug 'Xuyuanp/nerdtree-git-plugin'
 
-" ---------- Syntax ----------
-
-"Syntastic checks syntax errors from various languages
+" ==================== Syntax =============================
 Plug 'scrooloose/syntastic'
-
-"Vim-go to syntax highlight and other features when using golang
-Plug 'fatih/vim-go'
-
-"Dockerfile.vim adds syntax highlight to dockerfiles
 Plug 'ekalinin/Dockerfile.vim'
-
-" Systemd
 Plug 'Matt-Deacalion/vim-systemd-syntax'
 
-" ---------- Functionality ----------
+" ==================== Go Lang ============================
+Plug 'fatih/vim-go'
 
-"Ctrp-vim for file fuzzy search
-Plug 'kien/ctrlp.vim'
-
-"Expand selection
-Plug 'terryma/vim-expand-region'
-
-"Multiple cursor support
-Plug 'terryma/vim-multiple-cursors'
-
-"Code completion
-Plug 'Valloric/YouCompleteMe'
-
-" Best comments
-Plug 'scrooloose/nerdcommenter'
-
-"Search
-Plug 'dyng/ctrlsf.vim'
-
-"Elixir
+" ==================== Elixir Lang ========================
 Plug 'elixir-lang/vim-elixir'
 Plug 'slashmili/alchemist.vim'
 
-" ---------- Colorschemes ----------
+" ==================== File Search ========================
+Plug 'kien/ctrlp.vim'
+Plug 'dyng/ctrlsf.vim'
+Plug 'mru.vim'
 
-Plug 'crusoexia/vim-dracula'
-Plug 'sickill/vim-monokai'
+" ==================== Cursor =============================
+Plug 'terryma/vim-expand-region'
+Plug 'terryma/vim-multiple-cursors'
 
-" ---------- Miscelaneous ----------
-
-" Helps to easily changes surrounds, like () to [], for example
+" ==================== Text Helpers =======================
+Plug 'Valloric/YouCompleteMe'
+Plug 'scrooloose/nerdcommenter'
 Plug 'tpope/vim-surround'
-
-" Smart auto-closing surrounds
 Plug 'Raimondi/delimitMate'
-
-" Easy navigation between buffers
-Plug 'christoomey/vim-tmux-navigator'
-
-"Identation Guide
 Plug 'Yggdroot/indentLine'
-
-"Rainbow Parentheses
 Plug 'kien/rainbow_parentheses.vim'
 
-"MRU file list
-Plug 'mru.vim'
+" ==================== Tmux Integration ===================
+Plug 'christoomey/vim-tmux-navigator'
 
 call plug#end()
