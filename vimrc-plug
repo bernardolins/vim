@@ -1,7 +1,6 @@
 call plug#begin('~/.vim/plugged')
 
 " ==================== Screen =============================
-Plug 'crusoexia/vim-dracula'
 Plug 'crusoexia/vim-monokai'
 Plug 'bling/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
@@ -26,7 +25,6 @@ Plug 'slashmili/alchemist.vim'
 " ==================== File Search ========================
 Plug 'kien/ctrlp.vim'
 Plug 'dyng/ctrlsf.vim'
-Plug 'mru.vim'
 
 " ==================== Cursor =============================
 Plug 'terryma/vim-expand-region'
@@ -37,7 +35,6 @@ Plug 'tpope/vim-fugitive'
 
 " ==================== Text Helpers =======================
 Plug 'Valloric/YouCompleteMe'
-Plug 'scrooloose/nerdcommenter'
 Plug 'tpope/vim-surround'
 Plug 'Raimondi/delimitMate'
 Plug 'Yggdroot/indentLine'
