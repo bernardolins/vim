@@ -43,6 +43,10 @@ Plug 'Raimondi/delimitMate'
 Plug 'Yggdroot/indentLine'
 Plug 'kien/rainbow_parentheses.vim'
 
+" =================== Code Snippets =======================
+Plug 'SirVer/ultisnips'
+Plug 'honza/vim-snippets'
+
 " ==================== Tmux Integration ===================
 Plug 'christoomey/vim-tmux-navigator'
 Plug 'edkolev/tmuxline.vim'
