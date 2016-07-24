@@ -25,6 +25,9 @@ let g:airline#extensions#tabline#enabled = 0
 let g:airline#extensions#tmuxline#enabled = 1 
 let g:airline_theme='bubblegum'
 
+" ==================== Airline ===============================
+nmap <F3> :TagbarToggle<CR>
+
 " ==================== Buffers ================================
 noremap <S=l> :bn<CR>
 noremap <S=h> :bp<CR>

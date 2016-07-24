@@ -10,6 +10,9 @@ Plug 'airblade/vim-gitgutter'
 Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
 Plug 'Xuyuanp/nerdtree-git-plugin'
 
+" ==================== Tagbar =============================
+Plug 'majutsushi/tagbar'
+
 " ==================== Syntax =============================
 Plug 'scrooloose/syntastic'
 Plug 'ekalinin/Dockerfile.vim'
