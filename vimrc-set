@@ -29,8 +29,8 @@ let g:airline_theme='bubblegum'
 nmap <F3> :TagbarToggle<CR>
 
 " ==================== Buffers ================================
-noremap <S=l> :bn<CR>
-noremap <S=h> :bp<CR>
+noremap <S-l> :bn<CR>
+noremap <S-h> :bp<CR>
 nmap <leader>d :bdelete<CR>
 nmap <leader>D :bufdo bd<CR>
 
