@@ -4,7 +4,7 @@
 
 #### clone this repo to your home
 ```sh
-git clone https://github.com/bernardolins/vim.git .vim
+git clone https://github.com/bernardolins/vim.git ~/.vim
 ```
 #### make a symbolic link to vimrc
 ```sh
