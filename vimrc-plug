@@ -1,22 +1,20 @@
 call plug#begin('~/.vim/plugged')
 
 " ==================== Screen =============================
+Plug 'ap/vim-buftabline'
 Plug 'crusoexia/vim-monokai'
-Plug 'bling/vim-airline'
-Plug 'vim-airline/vim-airline-themes'
-Plug 'airblade/vim-gitgutter'
 
 " ==================== NerdTREE ===========================
 Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
 Plug 'Xuyuanp/nerdtree-git-plugin'
 
-" ==================== Tagbar =============================
-Plug 'majutsushi/tagbar'
-
 " ==================== Syntax =============================
 Plug 'scrooloose/syntastic'
 Plug 'ekalinin/Dockerfile.vim'
 Plug 'Matt-Deacalion/vim-systemd-syntax'
+
+" =================== Ruby ===============================
+Plug 'vim-ruby/vim-ruby'
 
 " ==================== Go Lang ============================
 Plug 'fatih/vim-go'
@@ -33,14 +31,11 @@ Plug 'dyng/ctrlsf.vim'
 Plug 'terryma/vim-expand-region'
 Plug 'terryma/vim-multiple-cursors'
 
-" =================== Git =================================
-Plug 'tpope/vim-fugitive'
-
 " ==================== Text Helpers =======================
-Plug 'Valloric/YouCompleteMe'
+Plug 'ajh17/vimcompletesme'
 Plug 'tpope/vim-surround'
 Plug 'Raimondi/delimitMate'
-Plug 'Yggdroot/indentLine'
+Plug 'Yggdroot/indentLine', { 'on': 'IndentLinesToggle' }
 Plug 'kien/rainbow_parentheses.vim'
 
 " =================== Code Snippets =======================
@@ -49,6 +44,5 @@ Plug 'honza/vim-snippets'
 
 " ==================== Tmux Integration ===================
 Plug 'christoomey/vim-tmux-navigator'
-Plug 'edkolev/tmuxline.vim'
 
 call plug#end()

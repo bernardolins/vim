@@ -13,6 +13,7 @@ set expandtab
 set synmaxcol=512
 set shell=bash
 set backspace=2
+set nu
 
 " ==================== Swap files ============================
 set backupdir=~/.vim/backup//
@@ -46,3 +47,7 @@ noremap <F7> :RainbowParenthesesToggle <CR>
 au Syntax * RainbowParenthesesLoadRound
 au Syntax * RainbowParenthesesLoadSquare
 au Syntax * RainbowParenthesesLoadBraces
+
+" ==================== Indent Line ===========================
+let g:indentLine_enabled = 0
+noremap <F4> :IndentLinesToggle<CR>
