@@ -20,15 +20,15 @@ set backupdir=~/.vim/backup//
 set directory=~/.vim/swap//
 set undodir=~/.vim/undo//
 
-" ==================== Airline ===============================
-set laststatus=2
-let g:airline_powerline_fonts = 1
-let g:airline#extensions#tabline#enabled = 1
-let g:airline#extensions#tmuxline#enabled = 1 
-let g:airline_theme='bubblegum'
-
-" ==================== Airline ===============================
-nmap <F3> :TagbarToggle<CR>
+" ==================== Vim status line ======================== 
+set statusline=
+set statusline +=%5*%{&ff}%*            "file format
+set statusline +=%4*\ %<%F%*            "full path
+set statusline +=%3*%y%*                "file type
+set statusline +=%2*%m%*                "modified flag
+set statusline +=%1*%=%5l%*             "current line
+set statusline +=%2*/%L%*               "total lines
+set statusline +=%1*%4v\ %*             "virtual column number
 
 " ==================== Buffers ================================
 noremap <S-l> :bn<CR>
@@ -36,13 +36,13 @@ noremap <S-h> :bp<CR>
 nmap <leader>d :bdelete<CR>
 nmap <leader>D :bufdo bd<CR>
 
-" ==================== Ultisnips ===========================
+" ==================== Ultisnips ============================
 let g:UltiSnipsExpandTrigger="<c-j>"
 let g:UltiSnipsJumpForwardTrigger="<c-j>"
 let g:UltiSnipsJumpBackwardTrigger="<c-z>"
 let g:UltiSnipsEditSplit="vertical"
 
-" ==================== Rainbow Parentheses ====================
+" ==================== Rainbow Parentheses ===================
 noremap <F7> :RainbowParenthesesToggle <CR>
 au Syntax * RainbowParenthesesLoadRound
 au Syntax * RainbowParenthesesLoadSquare
