@@ -12,6 +12,7 @@ Plug 'Xuyuanp/nerdtree-git-plugin'
 Plug 'scrooloose/syntastic'
 Plug 'ekalinin/Dockerfile.vim'
 Plug 'Matt-Deacalion/vim-systemd-syntax'
+Plug 'timcharper/textile.vim'
 
 " =================== Ruby ===============================
 Plug 'vim-ruby/vim-ruby'
