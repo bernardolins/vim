@@ -51,3 +51,6 @@ au Syntax * RainbowParenthesesLoadBraces
 " ==================== Indent Line ===========================
 let g:indentLine_enabled = 0
 noremap <F4> :IndentLinesToggle<CR>
+
+" ==================== Trim whitespaces ======================
+autocmd BufWritePre * %s/\s\+$//e
