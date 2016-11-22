@@ -33,7 +33,7 @@ Plug 'terryma/vim-expand-region'
 Plug 'terryma/vim-multiple-cursors'
 
 " ==================== Text Helpers =======================
-Plug 'ajh17/vimcompletesme'
+Plug 'Valloric/YouCompleteMe'
 Plug 'tpope/vim-surround'
 Plug 'Raimondi/delimitMate'
 Plug 'Yggdroot/indentLine', { 'on': 'IndentLinesToggle' }

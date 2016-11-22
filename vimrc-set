@@ -20,7 +20,7 @@ set backupdir=~/.vim/backup//
 set directory=~/.vim/swap//
 set undodir=~/.vim/undo//
 
-" ==================== Vim status line ======================== 
+" ==================== Vim status line ========================
 set statusline=
 set statusline +=%5*%{&ff}%*            "file format
 set statusline +=%4*\ %<%F%*            "full path
@@ -54,3 +54,6 @@ noremap <F4> :IndentLinesToggle<CR>
 
 " ==================== Trim whitespaces ======================
 autocmd BufWritePre * %s/\s\+$//e
+
+vnoremap K :m '<-2<CR>gv=gv
+vnoremap J :m '>+1<CR>gv=gv
