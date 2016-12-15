@@ -6,6 +6,12 @@
 ```sh
 git clone https://github.com/bernardolins/vim.git ~/.vim
 ```
+Open vim and then run `:PlugInstall`. After that, just run:
+```sh
+mkdir -p ~/.vim/backup
+mkdir -p ~/.vim/swap
+mkdir -p ~/.vim/undo
+```
 #### make a symbolic link to vimrc
 ```sh
 ln -s .vim/vimrc .vimrc
