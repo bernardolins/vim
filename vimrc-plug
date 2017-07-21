@@ -46,4 +46,7 @@ Plug 'honza/vim-snippets'
 " ==================== Tmux Integration ===================
 Plug 'christoomey/vim-tmux-navigator'
 
+" ==================== Testing ============================
+Plug 'janko-m/vim-test'
+
 call plug#end()
