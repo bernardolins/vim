@@ -62,6 +62,7 @@ nmap <leader>tf :TestFile<CR>
 nmap <leader>tn :TestNearest<CR>
 nmap <leader>tl :TestLast<CR>
 let test#filename_modifier = ":p"
+let test#strategy = "dispatch"
 
 
 " ==================== Trim whitespaces ======================
