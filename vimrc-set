@@ -52,11 +52,16 @@ au Syntax * RainbowParenthesesLoadBraces
 let g:indentLine_enabled = 0
 noremap <F4> :IndentLinesToggle<CR>
 
-" ==================== Indent Line ===========================
+" ==================== Vim test ======================
+nmap tt :TestNearest<CR>
+nmap tf :TestFile<CR>
+nmap tl :TestLast<CR>
+nmap ta :TestSuite<CR>
 nmap <leader>ts :TestSuite<CR>
 nmap <leader>tf :TestFile<CR>
 nmap <leader>tn :TestNearest<CR>
 nmap <leader>tl :TestLast<CR>
+let test#filename_modifier = ":p"
 
 
 " ==================== Trim whitespaces ======================
@@ -64,3 +69,5 @@ autocmd BufWritePre * %s/\s\+$//e
 
 vnoremap K :m '<-2<CR>gv=gv
 vnoremap J :m '>+1<CR>gv=gv
+
+
