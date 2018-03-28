@@ -72,3 +72,6 @@ vnoremap K :m '<-2<CR>gv=gv
 vnoremap J :m '>+1<CR>gv=gv
 
 
+" ==================== CtrlP Vim ======================
+let g:ctrlp_custom_ignore = '\v[\/]\.(git|hg|svn)|deps|_build|plugged|swap|backup|undo|autoload$'
+let g:ctrlp_show_hidden = 1
