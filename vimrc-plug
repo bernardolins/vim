@@ -3,6 +3,7 @@ call plug#begin('~/.vim/plugged')
 " ==================== Screen =============================
 Plug 'ap/vim-buftabline'
 Plug 'crusoexia/vim-monokai'
+Plug 'skielbasa/vim-material-monokai'
 
 " ==================== NerdTREE ===========================
 Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
