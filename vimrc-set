@@ -14,6 +14,7 @@ set synmaxcol=512
 set shell=bash
 set backspace=2
 set nu
+set encoding=utf-8
 
 " ==================== Swap files ============================
 set backupdir=~/.vim/backup//
