@@ -58,12 +58,20 @@ nmap tt :TestNearest<CR>
 nmap tf :TestFile<CR>
 nmap tl :TestLast<CR>
 nmap ta :TestSuite<CR>
+nmap to :Copen<CR>
+nmap tfb :TestFile -strategy=dispatch<CR>
+nmap tab :TestSuite -strategy=dispatch<CR>
 nmap <leader>ts :TestSuite<CR>
 nmap <leader>tf :TestFile<CR>
 nmap <leader>tn :TestNearest<CR>
 nmap <leader>tl :TestLast<CR>
 let test#filename_modifier = ":p"
-let test#strategy = "dispatch"
+let test#strategy = {
+  \ 'nearest': 'basic',
+  \ 'file':    'basic',
+  \ 'suite':   'dispatch_background',
+  \ 'last':    'basic',
+\}
 
 
 " ==================== Trim whitespaces ======================
@@ -74,5 +82,8 @@ vnoremap J :m '>+1<CR>gv=gv
 
 
 " ==================== CtrlP Vim ======================
-let g:ctrlp_custom_ignore = '\v[\/]\.(git|hg|svn)|deps|_build|plugged|swap|backup|undo|autoload$'
+let g:ctrlp_custom_ignore = '\v[\/]\.(git|hg|svn)|deps/|_build/|plugged/|swap/|backup/|undo/|autoload$'
 let g:ctrlp_show_hidden = 1
+
+"filetype plugin on
+"set omnifunc=elixircomplete#auto_complete

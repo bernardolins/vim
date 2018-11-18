@@ -2,8 +2,7 @@ call plug#begin('~/.vim/plugged')
 
 " ==================== Screen =============================
 Plug 'ap/vim-buftabline'
-Plug 'crusoexia/vim-monokai'
-Plug 'skielbasa/vim-material-monokai'
+Plug 'kirecek/vim-kxxe256'
 
 " ==================== NerdTREE ===========================
 Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
@@ -23,7 +22,6 @@ Plug 'fatih/vim-go'
 
 " ==================== Elixir Lang ========================
 Plug 'elixir-lang/vim-elixir'
-Plug 'slashmili/alchemist.vim'
 
 " ==================== File Search ========================
 Plug 'kien/ctrlp.vim'
