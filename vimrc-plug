@@ -1,8 +1,9 @@
 call plug#begin('~/.vim/plugged')
 
 " ==================== Screen =============================
-Plug 'ap/vim-buftabline'
 Plug 'kirecek/vim-kxxe256'
+Plug 'ap/vim-buftabline'
+Plug 'majutsushi/tagbar'
 
 " ==================== NerdTREE ===========================
 Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
@@ -20,6 +21,9 @@ Plug 'vim-ruby/vim-ruby'
 " ==================== Go Lang ============================
 Plug 'fatih/vim-go'
 
+" ==================== Rust ============================
+Plug 'cespare/vim-toml'
+
 " ==================== Elixir Lang ========================
 Plug 'elixir-lang/vim-elixir'
 
@@ -28,15 +32,12 @@ Plug 'kien/ctrlp.vim'
 Plug 'dyng/ctrlsf.vim'
 
 " ==================== Cursor =============================
-Plug 'terryma/vim-expand-region'
 Plug 'terryma/vim-multiple-cursors'
 
 " ==================== Text Helpers =======================
 Plug 'Valloric/YouCompleteMe'
 Plug 'tpope/vim-surround'
 Plug 'Raimondi/delimitMate'
-Plug 'Yggdroot/indentLine', { 'on': 'IndentLinesToggle' }
-Plug 'kien/rainbow_parentheses.vim'
 
 " =================== Code Snippets =======================
 Plug 'SirVer/ultisnips'

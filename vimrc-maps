@@ -13,3 +13,6 @@ nmap <Leader>f <Plug>CtrlSFPrompt
 "Integration to system's clipboard
 map <Leader>y "*y<CR>
 map <Leader>p "*p<CR>
+
+"Open command output
+nmap <leader>h :!<CR>
