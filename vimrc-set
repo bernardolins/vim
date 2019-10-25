@@ -75,6 +75,8 @@ let g:ctrlp_show_hidden = 1
 " ==================== Tagbar ======================
 noremap <F3> :TagbarToggle<CR>
 
+let g:tagbar_autofocus = 1
+let g:tagbar_width = 80
 let g:tagbar_type_elixir = {
     \ 'ctagstype' : 'elixir',
     \ 'kinds' : [
@@ -92,3 +94,7 @@ let g:tagbar_type_elixir = {
         \ 't:tests'
     \ ]
 \ }
+
+" ==================== Deoplete ======================
+let g:deoplete#enable_at_startup = 1
+inoremap <expr><TAB>  pumvisible() ? "\<C-n>" : "\<TAB>"

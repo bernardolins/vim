@@ -10,13 +10,7 @@ Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
 Plug 'Xuyuanp/nerdtree-git-plugin'
 
 " ==================== Syntax =============================
-Plug 'scrooloose/syntastic'
 Plug 'ekalinin/Dockerfile.vim'
-Plug 'Matt-Deacalion/vim-systemd-syntax'
-Plug 'timcharper/textile.vim'
-
-" =================== Ruby ===============================
-Plug 'vim-ruby/vim-ruby'
 
 " ==================== Go Lang ============================
 Plug 'fatih/vim-go'
@@ -29,13 +23,14 @@ Plug 'elixir-lang/vim-elixir'
 
 " ==================== File Search ========================
 Plug 'kien/ctrlp.vim'
-Plug 'dyng/ctrlsf.vim'
 
 " ==================== Cursor =============================
 Plug 'terryma/vim-multiple-cursors'
 
 " ==================== Text Helpers =======================
-Plug 'Valloric/YouCompleteMe'
+Plug 'Shougo/deoplete.nvim'
+Plug 'roxma/nvim-yarp'
+Plug 'roxma/vim-hug-neovim-rpc'
 Plug 'tpope/vim-surround'
 Plug 'Raimondi/delimitMate'
 
