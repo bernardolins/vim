@@ -2,6 +2,7 @@ call plug#begin('~/.vim/plugged')
 
 " ==================== Screen =============================
 Plug 'kirecek/vim-kxxe256'
+Plug 'mcmartelle/vim-monokai-bold'
 Plug 'ap/vim-buftabline'
 Plug 'majutsushi/tagbar'
 

@@ -54,7 +54,7 @@ nmap <leader>ts :TestSuite<CR>
 nmap <leader>tf :TestFile<CR>
 nmap <leader>tn :TestNearest<CR>
 nmap <leader>tl :TestLast<CR>
-let test#filename_modifier = ":p"
+"""""let test#filename_modifier = ':p'
 let test#strategy = {
   \ 'nearest': 'basic',
   \ 'file':    'basic',
@@ -98,3 +98,6 @@ let g:tagbar_type_elixir = {
 " ==================== Deoplete ======================
 let g:deoplete#enable_at_startup = 1
 inoremap <expr><TAB>  pumvisible() ? "\<C-n>" : "\<TAB>"
+
+" ==================== Vim-Go ======================
+let g:go_fmt_fail_silently = 1
